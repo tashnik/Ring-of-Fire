@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AE6874525CDF723003CB910 /* Ring_of_FireApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE6874425CDF723003CB910 /* Ring_of_FireApp.swift */; };
+		2AE6874725CDF723003CB910 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE6874625CDF723003CB910 /* GameView.swift */; };
+		2AE6874925CDF727003CB910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AE6874825CDF727003CB910 /* Assets.xcassets */; };
+		2AE6874C25CDF727003CB910 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AE6874B25CDF727003CB910 /* Preview Assets.xcassets */; };
+		2AE6875525CDFB42003CB910 /* Ex-Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE6875425CDFB42003CB910 /* Ex-Color.swift */; };
+		2AE6875D25CE2875003CB910 /* GameTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE6875C25CE2875003CB910 /* GameTabView.swift */; };
+		2AE6876025CE2BA1003CB910 /* RulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE6875F25CE2BA1003CB910 /* RulesView.swift */; };
+		2AE6876C25CE51C8003CB910 /* Launch-Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AE6876B25CE51C8003CB910 /* Launch-Screen.storyboard */; };
+		2AE6877325CF1274003CB910 /* Rules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE6877225CF1274003CB910 /* Rules.swift */; };
+		2AE6877725CF14F7003CB910 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE6877625CF14F7003CB910 /* Card.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2AE6874125CDF723003CB910 /* Ring-of-Fire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ring-of-Fire.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AE6874425CDF723003CB910 /* Ring_of_FireApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ring_of_FireApp.swift; sourceTree = "<group>"; };
+		2AE6874625CDF723003CB910 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		2AE6874825CDF727003CB910 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AE6874B25CDF727003CB910 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2AE6874D25CDF727003CB910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AE6875425CDFB42003CB910 /* Ex-Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex-Color.swift"; sourceTree = "<group>"; };
+		2AE6875C25CE2875003CB910 /* GameTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTabView.swift; sourceTree = "<group>"; };
+		2AE6875F25CE2BA1003CB910 /* RulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesView.swift; sourceTree = "<group>"; };
+		2AE6876B25CE51C8003CB910 /* Launch-Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch-Screen.storyboard"; sourceTree = "<group>"; };
+		2AE6877225CF1274003CB910 /* Rules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rules.swift; sourceTree = "<group>"; };
+		2AE6877625CF14F7003CB910 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AE6873E25CDF723003CB910 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AE6873825CDF723003CB910 = {
+			isa = PBXGroup;
+			children = (
+				2AE6874325CDF723003CB910 /* Ring-of-Fire */,
+				2AE6874225CDF723003CB910 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AE6874225CDF723003CB910 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AE6874125CDF723003CB910 /* Ring-of-Fire.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AE6874325CDF723003CB910 /* Ring-of-Fire */ = {
+			isa = PBXGroup;
+			children = (
+				2AE6877125CF1246003CB910 /* Model */,
+				2AE6874425CDF723003CB910 /* Ring_of_FireApp.swift */,
+				2AE6876E25CF122B003CB910 /* Screens */,
+				2AE6876B25CE51C8003CB910 /* Launch-Screen.storyboard */,
+				2AE6875C25CE2875003CB910 /* GameTabView.swift */,
+				2AE6875425CDFB42003CB910 /* Ex-Color.swift */,
+				2AE6874825CDF727003CB910 /* Assets.xcassets */,
+				2AE6874D25CDF727003CB910 /* Info.plist */,
+				2AE6874A25CDF727003CB910 /* Preview Content */,
+			);
+			path = "Ring-of-Fire";
+			sourceTree = "<group>";
+		};
+		2AE6874A25CDF727003CB910 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2AE6874B25CDF727003CB910 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2AE6876E25CF122B003CB910 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				2AE6875F25CE2BA1003CB910 /* RulesView.swift */,
+				2AE6874625CDF723003CB910 /* GameView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		2AE6877125CF1246003CB910 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2AE6877225CF1274003CB910 /* Rules.swift */,
+				2AE6877625CF14F7003CB910 /* Card.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AE6874025CDF723003CB910 /* Ring-of-Fire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AE6875025CDF727003CB910 /* Build configuration list for PBXNativeTarget "Ring-of-Fire" */;
+			buildPhases = (
+				2AE6873D25CDF723003CB910 /* Sources */,
+				2AE6873E25CDF723003CB910 /* Frameworks */,
+				2AE6873F25CDF723003CB910 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ring-of-Fire";
+			productName = "Ring-of-Fire";
+			productReference = 2AE6874125CDF723003CB910 /* Ring-of-Fire.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AE6873925CDF723003CB910 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					2AE6874025CDF723003CB910 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 2AE6873C25CDF723003CB910 /* Build configuration list for PBXProject "Ring-of-Fire" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AE6873825CDF723003CB910;
+			productRefGroup = 2AE6874225CDF723003CB910 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AE6874025CDF723003CB910 /* Ring-of-Fire */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AE6873F25CDF723003CB910 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AE6876C25CE51C8003CB910 /* Launch-Screen.storyboard in Resources */,
+				2AE6874C25CDF727003CB910 /* Preview Assets.xcassets in Resources */,
+				2AE6874925CDF727003CB910 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AE6873D25CDF723003CB910 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AE6875D25CE2875003CB910 /* GameTabView.swift in Sources */,
+				2AE6876025CE2BA1003CB910 /* RulesView.swift in Sources */,
+				2AE6877725CF14F7003CB910 /* Card.swift in Sources */,
+				2AE6874725CDF723003CB910 /* GameView.swift in Sources */,
+				2AE6874525CDF723003CB910 /* Ring_of_FireApp.swift in Sources */,
+				2AE6875525CDFB42003CB910 /* Ex-Color.swift in Sources */,
+				2AE6877325CF1274003CB910 /* Rules.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2AE6874E25CDF727003CB910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2AE6874F25CDF727003CB910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AE6875125CDF727003CB910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Ring-of-Fire/Preview Content\"";
+				DEVELOPMENT_TEAM = 74A4PQ6426;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Ring-of-Fire/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Potashnik.Ring-of-Fire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AE6875225CDF727003CB910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Ring-of-Fire/Preview Content\"";
+				DEVELOPMENT_TEAM = 74A4PQ6426;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Ring-of-Fire/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Potashnik.Ring-of-Fire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AE6873C25CDF723003CB910 /* Build configuration list for PBXProject "Ring-of-Fire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AE6874E25CDF727003CB910 /* Debug */,
+				2AE6874F25CDF727003CB910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AE6875025CDF727003CB910 /* Build configuration list for PBXNativeTarget "Ring-of-Fire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AE6875125CDF727003CB910 /* Debug */,
+				2AE6875225CDF727003CB910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AE6873925CDF723003CB910 /* Project object */;
+}
